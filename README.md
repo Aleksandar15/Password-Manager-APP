@@ -1,4 +1,4 @@
-# PasswordManager by Aleksandar15
+# Password-Manager by Aleksandar15
 
 ## Overview
 
