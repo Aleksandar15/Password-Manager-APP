@@ -11,8 +11,8 @@ app.use(cors())
 app.use(express.json());
 
 const db = mysql.createConnection({
-    user: MYSQL_USER,
-    host: MYSQL_HOST,
+    user: process.env.MYSQL_USER,
+    host: process.env.MYSQL_HOST,
     password: process.env.MYSQL_PASSWORD,
     database: process.env.MYSQL_DATABASE
 })
