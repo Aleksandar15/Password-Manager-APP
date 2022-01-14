@@ -3,6 +3,7 @@ const app = express();
 const mysql = require('mysql');
 const cors = require('cors');
 const PORT = 3001;
+require('dotenv').config({ path: './config/dev.env'})
 
 const {encrypt, decrypt} =  require('./EncryptionHandler');
 
@@ -10,10 +11,10 @@ app.use(cors())
 app.use(express.json());
 
 const db = mysql.createConnection({
-    user: 'root',
-    host: 'localhost',
-    password: '(herokuapp clearDB)',
-    database: 'passwordmanager'
+    user: MYSQL_USER,
+    host: MYSQL_HOST,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DATABASE
 })
 
 app.post('/addpassword', (req, res) => {
