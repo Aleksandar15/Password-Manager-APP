@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a password management app. I was certainly excited to have my own password manager released and then got sidetracked with my other projects.
+This is a password management app. I was certainly excited to have my own password manager released and then got sidetracked with my other projects before I have included more features for other users as explained below.
 
 
 See my project in action as it is [here](https://alek-password-manager.netlify.app)(refresh for the backend on heroku to do its thing).
