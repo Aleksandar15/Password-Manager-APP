@@ -21,10 +21,6 @@ I am building user authentication feature where upon registration a user will be
 - Create a `config` folder in the root of the project and inside of that folder create a `dev.env` file and write the details of your MySQL database as for user: `MYSQL_USER`, host: `MYSQL_HOST`, password: `MYSQL_PASSWORD` and your database: `MYSQL_DATABASE`.
 - Run `npm start` in your command line.
 - Visit http://localhost:3000 in your browser!
-MYSQL_USER
-MYSQL_HOST
-MYSQL_PASSWORD
-MYSQL_DATABASE
 
 ## Tech stack
 - React.js
