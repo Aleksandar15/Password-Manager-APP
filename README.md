@@ -9,7 +9,7 @@ See my project in action as it is [here](https://alek-password-manager.netlify.a
 
 ## Features
 
-- Store a website's title and your password.
+- Store a website's name and your password.
 ### TO BE ADDED:
 I am building user authentication feature where upon registration a user will be able to store their password for a particular website (title, e-mail and password).
 
